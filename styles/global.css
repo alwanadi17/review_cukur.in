@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+* {
+	font-family: Lexend Deca,sans-serif;
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*Clearfix*/
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+.cf {
+    *zoom: 1;
+}
+
+/*Styles for the website after this*/
+
+body {
+	background-color: #eaeaea;
+	background-image: url(../img/sativa.webp);
+	color: #333;
+}
+
+.title {
+	text-transform: capitalize;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+[class="container"] {
+	width: 100%;
+	margin: auto;
+	background-color: white;
+}
+
+@media only screen and (min-width: 960px) {
+	.container {
+		width: 960px;
+		margin: auto;
+		background-color: white;
+	}
+}
+
+header {
+	padding: 20px;
+	font-size: 0;
+}
+
+/*header h1 {
+	text-align:center;
+}*/
+
+header ul li {
+	display: inline-block;
+	margin-top: 20px;
+	margin-right: 10px;
+
+}
+
+header ul li a {
+	text-transform: capitalize;
+	text-decoration: none;
+	color: salmon;
+	padding: 3px;
+	font-size: 18px	;
+}
+
+header ul li a:hover {
+	background-color: salmon;
+	color: white;
+	transition: background-color 0.75s, color 0.75s;
+}
+
+.hero {
+	height: 420px;
+	background-image: url(../img/hero.jpg);
+	background-size: cover;
+	background-position: 0 -140px;
+	border-top: 5px solid darksalmon;
+	border-bottom: 5px solid lightskyblue;
+}
+
+article {
+	width: 100%;
+	padding: 20px;
+	float: left;
+	box-sizing: border-box;
+	text-align: justify;
+}
+
+article h1 {
+/*	text-transform: capitalize;*/
+	font-size: 32px;
+	font-weight: bold;
+}
+
+article h2 {
+	font-size: 26px;
+	font-weight: bold;
+	margin-bottom: 12px;
+}
+
+article .info {
+	font-size: 12px;
+	margin-top: 6px;
+}
+
+article .info a {
+	color: salmon;
+	text-decoration: none;
+}
+
+article p {
+	margin-bottom: 20px;
+	font-size: 16px;
+	line-height: 20px;
+}
+
+aside {
+	width: 300px;
+	float: right;
+	padding: 20px;
+	text-align: justify;
+}
+
+aside h3 {
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #666;
+	padding-bottom: 10px;
+}
+
+aside img {
+	width: 80px;
+	height: 80px;
+	float: left;
+	background-image: url(../img/profile.jpg);
+	background-size: cover;
+	margin-right: 10px;
+}
+
+aside p {
+	font-size: 12px;
+	line-height: 18px;
+}
+
+footer {
+	background-color: #222;
+	color: #ddd;
+	font-size: 12px;
+	text-align: center;
+	padding: 18px;
+}
