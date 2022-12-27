@@ -146,12 +146,16 @@ article p {
 		width: 320px;
 		float: right;
 		margin-left: 12px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
 	.img2 {
 		width: 250px;
 		float: right;
 		margin-left: 12px;
+		margin-top: 0px;
+		margin-bottom: 0px;
 	}
 
 	.img3, .img4 {
