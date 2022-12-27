@@ -137,7 +137,8 @@ article p {
 
 [class*="img"] {
 	width: 100%;
-	margin: 12px;
+	margin-top: 12px;
+	margin-bottom: 12px;
 }
 
 @media only screen and (min-width: 480px) {
