@@ -133,6 +133,7 @@ article p {
 	margin-bottom: 20px;
 	font-size: 16px;
 	line-height: 20px;
+	text-align: justify;
 }
 
 [class*="img"] {
@@ -186,6 +187,7 @@ footer img {
 footer p {
 	font-size: 12px;
 	line-height: 18px;
+	text-align: justify;
 }
 
 footer {
